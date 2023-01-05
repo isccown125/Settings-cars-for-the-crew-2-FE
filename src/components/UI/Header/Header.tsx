@@ -1,14 +1,14 @@
 import React from 'react';
 
-interface HeaderProps{
-    className: string,
-    children: React.ReactNode,
+type HeaderProps = {
+    className?: string,
+    children?: React.ReactNode,
 }
 
-function Header(props:HeaderProps) {
+const Header:React.FC<HeaderProps> =({children, className = ''})=>{
     return (
-        <header className={props.className}>
-            {props.children}
+        <header className={className}>
+            {children}
         </header>
     );
 }

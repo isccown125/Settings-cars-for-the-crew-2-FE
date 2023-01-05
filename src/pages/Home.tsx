@@ -6,7 +6,7 @@ import MainContent from "../components/UI/WebContentWrapper/MainContent";
 function Home() {
     return (
         <MainContent>
-            <Header className={''}>
+            <Header>
                 <Navigation></Navigation>
             </Header>
         </MainContent>

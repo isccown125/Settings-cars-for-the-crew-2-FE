@@ -2,19 +2,19 @@ import React from 'react';
 import {Link} from "react-router-dom";
 
 
-interface NavigationProps {
-    className: string,
-    href: string,
-    children: React.ReactNode,
+type NavigationProps = {
+    className?: string,
+    href?: string,
+    children?: React.ReactNode,
 }
 
-function NavigationItem(props:NavigationProps) {
+const NavigationItem:React.FC<NavigationProps> = ({className='', href='#', children})=>{
 
     return (
         <>
-            <li className={props.className}>
-                <Link to={props.href}>
-                    {props.children}
+            <li className={className}>
+                <Link to={href}>
+                    {children}
                 </Link>
             </li>
         </>
