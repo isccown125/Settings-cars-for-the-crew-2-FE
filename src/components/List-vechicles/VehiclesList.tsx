@@ -1,13 +1,33 @@
 import React from 'react';
-import Header from "../UI/Header/Header";
-import Navigation from "../UI/Navigation/Navigation";
+
 
 function VehiclesList() {
+
+    const vechicles = [
+        {
+            brand: 'Chevrolet',
+            model: 'Camaro ZL1',
+            date: '2010',
+            
+
+        }
+    ]
+
+
+
+
+
     return (
         <section className='all-vehicles'>
-            <Header className={''}>
-                <Navigation></Navigation>
-            </Header>
+            <ul>
+                {vechicles.map((el)=>{
+                    return(
+                        <li>
+
+                        </li>
+                        )
+                })}
+            </ul>
         </section>
     );
 }
