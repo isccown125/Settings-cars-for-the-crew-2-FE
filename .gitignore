@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.idea
+.idea/workspace.xml
+.idea/settings-cars-for-the-crew-2-fe.iml
+.idea/modules.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/discord.xml
+.idea/vcs.xml
