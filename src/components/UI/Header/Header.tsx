@@ -2,7 +2,7 @@ import React from 'react';
 
 interface HeaderProps{
     className: string,
-    children?: React.ReactNode,
+    children: React.ReactNode,
 }
 
 function Header(props:HeaderProps) {
