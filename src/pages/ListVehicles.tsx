@@ -6,7 +6,7 @@ import Footer from "../components/UI/Footer/Footer";
 function ListVehicles() {
     return (
         <>
-            <Header className={''}>
+            <Header>
                 <Navigation></Navigation>
             </Header>
             <Footer />

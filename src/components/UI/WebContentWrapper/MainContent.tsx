@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface MainContentProps{
+type MainContentProps = {
     children: React.ReactNode,
 }
 
