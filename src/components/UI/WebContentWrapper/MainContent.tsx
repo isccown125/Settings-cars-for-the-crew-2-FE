@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './MainContent.module.css'
 
 type MainContentProps = {
     children: React.ReactNode,
@@ -6,8 +7,8 @@ type MainContentProps = {
 
 function MainContent(props:MainContentProps) {
     return (
-        <main>
-            <div className='main-content'>
+        <main className={styles.page}>
+            <div className=''>
                 {props.children}
             </div>
         </main>

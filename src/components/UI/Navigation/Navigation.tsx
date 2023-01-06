@@ -7,7 +7,7 @@ function Navigation() {
             <div className='navigation-content'>
                 <ul className='navigation-container'>
                     <NavigationItem className='navigation-container__item' href={'/'}>Home</NavigationItem>
-                    <NavigationItem className='navigation-container__item' href={'/vechicles'}>List Vechicle</NavigationItem>
+                    <NavigationItem className='navigation-container__item' href={'/vehicles'}>List Vehicle</NavigationItem>
                 </ul>
             </div>
         </nav>

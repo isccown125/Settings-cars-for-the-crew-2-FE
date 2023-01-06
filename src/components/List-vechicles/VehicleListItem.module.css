@@ -1,0 +1,24 @@
+.description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.full-name{
+    display: flex;
+    gap: 5px;
+}
+.car-informations{
+    width: 50%;
+    display: flex;
+    height: min-content;
+
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 2px;
+
+}
+.group{
+    display: flex;
+    gap: 2px;
+}
