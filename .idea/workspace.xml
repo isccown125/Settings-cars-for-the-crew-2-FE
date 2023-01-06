@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5155e01e-fc65-4816-a1ca-3d802179bab4" name="Changes" comment="" />
+    <list default="true" id="5155e01e-fc65-4816-a1ca-3d802179bab4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/List-vechicles/VehicleListItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/List-vechicles/VehicleListItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/WebContentWrapper/MainContent.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List-vechicles/VechicleListItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List-vechicles/VehiclesList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List-vechicles/VechicleListItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List-vechicles/VehiclesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List-vechicles/VehiclesList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Navigation/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Navigation/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/WebContentWrapper/MainContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/WebContentWrapper/MainContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ListVehicles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AllVehicles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/declarations.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/declarations.d.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -43,7 +57,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "E:\\WebStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "E:\\Projekty\\Setting-cars-for-the-crew-2\\settings-cars-for-the-crew-2-fe\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,6 +82,9 @@
       <workItem from="1672436446734" duration="3539000" />
       <workItem from="1672486820860" duration="1961000" />
       <workItem from="1672855871934" duration="5879000" />
+      <workItem from="1672944986588" duration="3427000" />
+      <workItem from="1672961236886" duration="44000" />
+      <workItem from="1672998248082" duration="533000" />
     </task>
     <servers />
   </component>

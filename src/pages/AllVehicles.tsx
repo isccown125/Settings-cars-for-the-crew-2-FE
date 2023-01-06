@@ -5,18 +5,18 @@ import Footer from "../components/UI/Footer/Footer";
 import MainContent from "../components/UI/WebContentWrapper/MainContent";
 import VehiclesList from "../components/List-vechicles/VehiclesList";
 
-function ListVehicles() {
+function AllVehicles() {
     return (
         <>
             <Header>
                 <Navigation />
             </Header>
             <MainContent>
-                <VehiclesList></VehiclesList>
+                <VehiclesList />
             </MainContent>
             <Footer />
         </>
     );
 }
 
-export default ListVehicles;
+export default AllVehicles;
