@@ -9,12 +9,12 @@ function Home() {
         <>
             <Header>
                 <Navigation></Navigation>
+
             </Header>
             <MainContent>
 
             </MainContent>
             <Footer>
-
             </Footer>
         </>
 
