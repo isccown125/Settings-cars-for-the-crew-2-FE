@@ -13,7 +13,7 @@ type VehicleListItemProps = {
 
 const VehicleListItem:React.FC<VehicleListItemProps> = ({cost, brand, model, date, className})=>{
     return (
-        <li className={''} >
+        <li className={className} >
             <div className={styles.description}>
                 <div className={styles['full-name']}>
                     <p>{brand} {model}</p>

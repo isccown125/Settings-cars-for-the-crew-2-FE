@@ -3,7 +3,7 @@ import Header from "../components/UI/Header/Header";
 import Navigation from "../components/UI/Navigation/Navigation";
 import Footer from "../components/UI/Footer/Footer";
 import MainContent from "../components/UI/WebContentWrapper/MainContent";
-import VehiclesList from "../components/List-vechicles/VehiclesList";
+import VehiclesList from "../components/ListVechicles/VehiclesList";
 
 function AllVehicles() {
     return (

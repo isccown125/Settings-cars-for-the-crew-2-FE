@@ -1,0 +1,5 @@
+.navigation{
+    background-color: var(--nav-background-color);
+    display: flex;
+    width: 100%;
+}

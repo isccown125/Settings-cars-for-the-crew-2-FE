@@ -1,13 +1,15 @@
 import React from 'react';
 import NavigationItem from "./NavigationItem";
+import styles from './Navigation.module.css';
+import './Navigation.css'
 
 function Navigation() {
     return (
         <nav className='navigation'>
-            <div className='navigation-content'>
-                <ul className='navigation-container'>
-                    <NavigationItem className='navigation-container__item' href={'/'}>Home</NavigationItem>
-                    <NavigationItem className='navigation-container__item' href={'/vehicles'}>List Vehicle</NavigationItem>
+            <div className={styles.content}>
+                <ul className={styles.container}>
+                    <NavigationItem className={styles.item} href={'/'}>Home</NavigationItem>
+                    <NavigationItem className={styles.item} href={'/vehicles'}>List Vehicles</NavigationItem>
                 </ul>
             </div>
         </nav>
