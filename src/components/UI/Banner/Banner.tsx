@@ -4,9 +4,9 @@ import { AiOutlineDown } from 'react-icons/ai';
 
 const Banner = () => (
     <div className='banner'>
-        <h1>Hello! Get your driving experience <br/>on next level.</h1>
+        <h1>Get your driving experience <br/>on next level.</h1>
         <button>
-            <p>Go down</p>
+            <p><strong>GO DOWN</strong></p>
             <a href='/'>
                 <AiOutlineDown/>
             </a>

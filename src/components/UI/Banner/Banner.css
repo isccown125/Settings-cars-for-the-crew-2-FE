@@ -1,7 +1,10 @@
 .banner{
     display: flex;
     text-align: center;
-    background-color: var(--banner-background-color);
+    background-image: url("../../../assets/images/backgrounds/banner-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
@@ -27,11 +30,15 @@
     font-size: 40px;
     animation: bounce 1.3s infinite forwards ease-in-out;
 }
+.banner a svg:hover {
+    color: var(--font-color-hover-nav);
+}
+
 @keyframes bounce {
     50%{
         translate: 0 -10px;
     }
     100%{
-        translate: 0 10px;
+        translate: 0;
     }
 }
