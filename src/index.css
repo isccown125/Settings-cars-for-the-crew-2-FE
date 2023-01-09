@@ -9,7 +9,7 @@
 
 :root{
   --nav-background-color: #2a2b2f;
-  --background-color: #1f1f1f;
+  --background-color: #171717;
   --font-color-light: white;
   --font-color-hover-nav: #FF00ED;
   --defalut-font-color: black;
@@ -30,9 +30,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-#root{
-  min-height: 100vh;
 }
 *{
   box-sizing: border-box;

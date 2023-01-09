@@ -7,14 +7,32 @@ type VehicleListItemProps = {
     model: string,
     date: string,
     cost: number,
+    discipline: string,
     className?: string,
+    carImg?: string,
 }
 
 
-const VehicleListItem:React.FC<VehicleListItemProps> = ({cost, brand, model, date, className})=>{
+const VehicleListItem:React.FC<VehicleListItemProps> = ({discipline,carImg, cost, brand, model, date, className})=>{
+    let dynamicBackgroundColor: string = '';
+    switch (discipline){
+        case 'STREET RACING':
+            dynamicBackgroundColor = 'yellow';
+            break;
+        case 'OFFROAD':
+            dynamicBackgroundColor = 'orange';
+            break;
+        case 'FREESTYLE':
+            dynamicBackgroundColor = 'pink';
+            break;
+        case 'PRO RACING':
+            dynamicBackgroundColor = 'blue';
+            break;
+
+    }
     return (
-        <li className={className} >
-            <div className={styles.description}>
+        <li className={`${styles.style} ${className}`} >
+            <header className={styles.description} style={{backgroundColor: dynamicBackgroundColor}}>
                 <div className={styles['full-name']}>
                     <p>{brand} {model}</p>
                 </div>
@@ -22,6 +40,9 @@ const VehicleListItem:React.FC<VehicleListItemProps> = ({cost, brand, model, dat
                     <p>period {date}  </p>
                     <p><span className={styles.group}>{cost}<img src={currencyImage} alt="game currency"/></span></p>
                 </div>
+            </header>
+            <div className={styles.image} style={{backgroundColor: dynamicBackgroundColor}}>
+                <img src={carImg} alt="" className={styles['car-image']}/>
             </div>
         </li>
     );

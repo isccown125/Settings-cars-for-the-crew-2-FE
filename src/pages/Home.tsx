@@ -9,7 +9,6 @@ function Home() {
         <>
             <Header>
                 <Navigation></Navigation>
-
             </Header>
             <MainContent>
 
