@@ -1,13 +1,14 @@
 import React from 'react';
+import styles from './Header.module.css';
 
 type HeaderProps = {
     className?: string,
     children?: React.ReactNode,
 }
 
-const Header:React.FC<HeaderProps> =({children, className = ''})=>{
+const Header:React.FC<HeaderProps> =({children, className})=>{
     return (
-        <header className={className}>
+        <header className={`${styles.style} ${className}`}>
             {children}
         </header>
     );

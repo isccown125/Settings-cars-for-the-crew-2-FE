@@ -1,17 +1,26 @@
+.style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+}
 .description{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
 }
 .full-name{
     display: flex;
     gap: 5px;
+    font-weight: bold;
 }
 .car-informations{
     width: 50%;
     display: flex;
     height: min-content;
-
     justify-content: space-between;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -21,4 +30,30 @@
 .group{
     display: flex;
     gap: 2px;
+}
+.image{
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    background-image: url('../../assets/images/backgrounds/slider-vehicle-background.png');
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .15s;
+    margin-inline: auto;
+
+}
+.car-image{
+    display: flex;
+    width: 100%;
+    scale: 0.9;
+    transition: .2s;
+}
+.image:hover{
+    scale: 1.1;
+    z-index: 10;
+}
+.car-image:hover{
+    scale: 1.1;
+    translate: 50px;
 }

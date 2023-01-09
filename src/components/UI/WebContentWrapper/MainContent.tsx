@@ -8,7 +8,7 @@ type MainContentProps = {
 function MainContent(props:MainContentProps) {
     return (
         <main className={styles.page}>
-            <div className=''>
+            <div className={styles.content}>
                 {props.children}
             </div>
         </main>

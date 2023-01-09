@@ -1,4 +1,10 @@
 .page{
     display: grid;
-    min-height: 80vh;
+    overflow: visible;
+}
+.content{
+    display: flex;
+    padding: 10px;
+    overflow-x: hidden;
+
 }
