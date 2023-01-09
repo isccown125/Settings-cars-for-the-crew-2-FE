@@ -7,7 +7,7 @@ const Banner = () => (
         <h1>Get your driving experience <br/>on next level.</h1>
         <button>
             <p><strong>GO DOWN</strong></p>
-            <a href='/'>
+            <a href='/'> {/* <--- add id selector for scroll to next element */}
                 <AiOutlineDown/>
             </a>
         </button>

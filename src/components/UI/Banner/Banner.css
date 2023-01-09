@@ -11,7 +11,7 @@
     height: 95vh;
 }
 .banner h1{
-    font-size: clamp(20px, 80vw, 50px);
+    font-size: clamp(1.5rem, 15vw, 3rem);
 }
 .banner button{
     background: transparent;
@@ -19,15 +19,16 @@
 }
 .banner p{
     color: var(--font-color-light);
-    font-size: 20px;
+    font-size: clamp(0.8rem, 10vw, 1.3rem);
 }
 .banner a{
     text-decoration: none;
     color: var(--font-color-light);
-    font-size: 20px;
+
 }
 .banner a svg{
-    font-size: 40px;
+    font-size: clamp(1rem, 10vw, 1.6rem);
+    margin-top: 20px;
     animation: bounce 1.3s infinite forwards ease-in-out;
 }
 .banner a svg:hover {

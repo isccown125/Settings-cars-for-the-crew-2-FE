@@ -14,8 +14,11 @@
   --font-color-hover-nav: #FF00ED;
   --default-font-color: black;
   --banner-background-color: #69369E;
+
+
+  --mobile-web-size: 567px;
 }
-html{
+html {
   background-color: var(--background-color);
 }
 
