@@ -9,8 +9,8 @@ function Home() {
     return (
         <>
             <Header>
-                <Navigation></Navigation>
-                <Banner></Banner>
+                <Navigation />
+                <Banner />
             </Header>
             <MainContent>
 
