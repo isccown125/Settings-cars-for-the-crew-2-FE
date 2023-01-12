@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "types": [
+        "../settings-cars-for-the-crew-2-BE/src/types"
+      ]
+    }
+  }
+}
