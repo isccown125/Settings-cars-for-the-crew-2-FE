@@ -1,3 +1,5 @@
 .style{
-    /*position: sticky;*/
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }

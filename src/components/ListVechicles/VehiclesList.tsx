@@ -1,7 +1,7 @@
 import React from 'react';
 import VehicleListItem from "./VehicleListItem";
 import styles from './VehiclesList.module.css';
-import carImage from '../../assets/images/Cars/buggati-divo-emerald.png'
+import carImage from '../../assets/images/cars/Ferrari.png'
 
 function VehiclesList() {
 
@@ -13,7 +13,7 @@ function VehiclesList() {
             date: '2010',
             cost: 42312312,
             discipline: 'STREET RACE',
-            image: '../../assets/images/Cars/Ferrari.png',
+            image: '../../assets/images/cars/Ferrari.png',
         },
         {
             id: 1,
@@ -22,7 +22,7 @@ function VehiclesList() {
             date: '2003',
             cost: 42312312,
             discipline: 'STREET RACE',
-            image: '../../assets/images/Cars/Ferrari.png',
+            image: '../../assets/images/cars/Ferrari.png',
         },
         {
             id: 2,
@@ -31,7 +31,7 @@ function VehiclesList() {
             date: '2011',
             cost: 42312312,
             discipline: 'POWER RACING',
-            image: '/assets/images/Cars/Ferrari.png',
+            image: '/assets/images/cars/Ferrari.png',
         },
         {
             id: 3,
@@ -40,7 +40,7 @@ function VehiclesList() {
             date: '2015',
             cost: 42312312,
             discipline: 'STREET RACE',
-            image: '/assets/images/Cars/Ferrari.png',
+            image: '/assets/images/cars/Ferrari.png',
         },
         {
             id: 4,
@@ -49,7 +49,7 @@ function VehiclesList() {
             date: '2015',
             cost: 42312312,
             discipline: 'POWER RACING',
-            image: '/assets/images/Cars/Ferrari.png',
+            image: '/assets/images/cars/Ferrari.png',
         },
         {
             id: 5,
@@ -58,7 +58,7 @@ function VehiclesList() {
             date: '2015',
             cost: 42312312,
             discipline: 'FREESTYLE',
-            image: '/assets/images/Cars/Ferrari.png',
+            image: '/assets/images/cars/Ferrari.png',
         },
         {
             id: 6,
@@ -67,7 +67,7 @@ function VehiclesList() {
             date: '2015',
             cost: 42312312,
             discipline: 'STREET RACE',
-            image: '/assets/images/Cars/Ferrari.png',
+            image: '/assets/images/cars/Ferrari.png',
         },
         {
             id: 7,
@@ -76,7 +76,7 @@ function VehiclesList() {
             date: '2015',
             cost: 42312312,
             discipline: 'OFFROAD',
-            image: '/assets/images/Cars/Ferrari.png',
+            image: '/assets/images/cars/Ferrari.png',
         },
     ]
 
