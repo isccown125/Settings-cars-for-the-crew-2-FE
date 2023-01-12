@@ -27,7 +27,8 @@
     font-family: Pilot;
     word-spacing: 1px;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: clamp(0.8rem, 8vw, 1.7rem);
+    text-align: center;
 }
 .item a:hover{
     color: var(--font-color-hover-nav);
