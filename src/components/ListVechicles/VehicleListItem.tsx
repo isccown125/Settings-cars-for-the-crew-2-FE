@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './VehicleListItem.module.css';
 import currencyImage from '../../assets/images/currency/the-crew-2-curenncy-bucks-16x16.png'
+import Image from "../UI/Image/Img";
 
 type VehicleListItemProps = {
     brand: string,
@@ -9,7 +10,7 @@ type VehicleListItemProps = {
     cost: number,
     discipline: string,
     className?: string,
-    carImg?: string,
+    carImg: string,
 }
 
 
@@ -38,11 +39,14 @@ const VehicleListItem:React.FC<VehicleListItemProps> = ({discipline,carImg, cost
                 </div>
                 <div className={styles['car-informations']}>
                     <p>period {date}  </p>
-                    <p><span className={styles.group}>{cost}<img src={currencyImage} alt="game currency"/></span></p>
+                    <p><span className={styles.group}>{cost}
+                        <Image src={currencyImage} alt="game currency"/>
+                    </span>
+                    </p>
                 </div>
             </header>
             <div className={styles.image} style={{backgroundColor: dynamicBackgroundColor}}>
-                <img src={carImg} alt="" className={styles['car-image']}/>
+                <Image src={carImg} alt="" className={styles['car-image']}/>
             </div>
         </li>
     );

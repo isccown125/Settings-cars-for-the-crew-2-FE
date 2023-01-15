@@ -50,10 +50,8 @@
     transition: .2s;
 }
 .image:hover{
-    scale: 1.1;
-    z-index: 10;
+    opacity: 0.6;
+    cursor: pointer;
 }
-.car-image:hover{
-    scale: 1.1;
-    translate: 50px;
+.car-image:hover {
 }

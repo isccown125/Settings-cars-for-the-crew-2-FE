@@ -13,6 +13,7 @@ function Home() {
         period: "xxx",
         cost: 12,
         discipline: "xxx",
+        country: '',
     }
     return (
         <>
