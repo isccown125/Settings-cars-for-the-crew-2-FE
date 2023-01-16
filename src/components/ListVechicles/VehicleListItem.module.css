@@ -18,18 +18,23 @@
     font-weight: bold;
 }
 .car-informations{
-    width: 50%;
+    width: 100%;
+    height: 100%;
     display: flex;
     height: min-content;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
     gap: 2px;
-
+    padding: 5px;
 }
 .group{
     display: flex;
     gap: 2px;
+}
+.text-style{
+    font-size: clamp(0.5rem, 5vw, 1rem);
 }
 .image{
     display: flex;
@@ -43,6 +48,11 @@
     margin-inline: auto;
 
 }
+.currency-image{
+    display: block;
+    width: clamp(10px, 5vw, 20px);
+    aspect-ratio: 1;
+}
 .car-image{
     display: flex;
     width: 100%;
@@ -53,5 +63,6 @@
     opacity: 0.6;
     cursor: pointer;
 }
-.car-image:hover {
+.footer{
+
 }

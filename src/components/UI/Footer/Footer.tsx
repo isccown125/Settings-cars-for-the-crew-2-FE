@@ -9,7 +9,7 @@ type FooterProps = {
 const Footer:React.FC<FooterProps>=({children, className= ''})=>{
 
     return (
-        <footer className={`${styles.main} ${className}`}>
+        <footer className={`${styles['default-style']} ${className}`}>
             {children}
         </footer>
     );
