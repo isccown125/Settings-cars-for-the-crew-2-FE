@@ -11,6 +11,10 @@
     align-items: center;
     padding: 5px;
     box-sizing: border-box;
+    font-family: Arial;
+    text-shadow: 1px 1px grey;
+    letter-spacing: 1px;
+    background-color: var(--nav-background-color);
 }
 .full-name{
     display: flex;
@@ -28,10 +32,13 @@
     flex-direction: row;
     gap: 2px;
     padding: 5px;
+    font-family: TheBuster;
+    background-color: var(--nav-background-color);
 }
 .group{
     display: flex;
     gap: 2px;
+    letter-spacing: 1px;
 }
 .text-style{
     font-size: clamp(0.5rem, 5vw, 1rem);

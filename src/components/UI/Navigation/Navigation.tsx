@@ -2,8 +2,18 @@ import React from 'react';
 import NavigationItem from "./NavigationItem";
 import styles from './Navigation.module.css';
 import './Navigation.css'
+import {useMobile} from "../../../hooks/useMobile";
+import MobileNavigation from "./MobileNavigation";
 
-function Navigation() {
+const Navigation = () => {
+    let mobile = useMobile();
+    //
+    if(mobile){
+        return (
+            <MobileNavigation className={'navigation'}></MobileNavigation>
+        )
+    }
+
     return (
         <nav className='navigation'>
             <div className={styles.content}>

@@ -1,8 +1,16 @@
 import React from 'react';
 
-const Navbar = () => (
-    <section className='navbar'>
+interface Props {
+    className?: string,
+    children?: React.ReactNode,
+}
 
+const Navbar:React.FC<Props> = ({children, className}) => (
+
+
+
+    <section className={`navbar ${className}`}>
+        {children}
     </section>
 );
 

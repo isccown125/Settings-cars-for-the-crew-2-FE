@@ -3,7 +3,7 @@ import styles from './VehicleListItem.module.css';
 import currencyImage from '../../assets/images/currency/the-crew-2-curenncy-bucks-16x16.png'
 import Image from "../UI/Image/Image";
 import Footer from "../UI/Footer/Footer";
-import Button from "../UI/Buttons/Button";
+import Button from "../UI/Button/Button";
 
 type VehicleListItemProps = {
     brand: string,
