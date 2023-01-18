@@ -11,6 +11,10 @@
     align-items: center;
     padding: 5px;
     box-sizing: border-box;
+    font-family: Arial;
+    text-shadow: 1px 1px grey;
+    letter-spacing: 1px;
+    background-color: var(--nav-background-color);
 }
 .full-name{
     display: flex;
@@ -18,18 +22,26 @@
     font-weight: bold;
 }
 .car-informations{
-    width: 50%;
+    width: 100%;
+    height: 100%;
     display: flex;
     height: min-content;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
     gap: 2px;
-
+    padding: 5px;
+    font-family: TheBuster;
+    background-color: var(--nav-background-color);
 }
 .group{
     display: flex;
     gap: 2px;
+    letter-spacing: 1px;
+}
+.text-style{
+    font-size: clamp(0.5rem, 5vw, 1rem);
 }
 .image{
     display: flex;
@@ -43,6 +55,11 @@
     margin-inline: auto;
 
 }
+.currency-image{
+    display: block;
+    width: clamp(10px, 5vw, 20px);
+    aspect-ratio: 1;
+}
 .car-image{
     display: flex;
     width: 100%;
@@ -50,10 +67,9 @@
     transition: .2s;
 }
 .image:hover{
-    scale: 1.1;
-    z-index: 10;
+    opacity: 0.6;
+    cursor: pointer;
 }
-.car-image:hover{
-    scale: 1.1;
-    translate: 50px;
+.footer{
+
 }

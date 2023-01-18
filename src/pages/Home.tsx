@@ -4,16 +4,8 @@ import Navigation from "../components/UI/Navigation/Navigation";
 import MainContent from "../components/UI/WebContentWrapper/MainContent";
 import Footer from "../components/UI/Footer/Footer";
 import Banner from "../components/UI/Banner/Banner";
-import { VehicleReq } from "types";
 
 function Home() {
-    const foobar: VehicleReq = {
-        brand: 'xxx',
-        model: 'xxx',
-        period: "xxx",
-        cost: 12,
-        discipline: "xxx",
-    }
     return (
         <>
             <Header>
@@ -24,7 +16,6 @@ function Home() {
 
             </MainContent>
             <Footer>
-                <h1>{foobar.brand}</h1>
             </Footer>
         </>
 

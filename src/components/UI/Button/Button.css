@@ -1,0 +1,15 @@
+.purple{
+    background-color: var(--button-bg-color);
+    color: var(--font-color-light);
+    border: none;
+    border-radius: 20px;
+    height: clamp(20px, 10vh, 40px);
+    width: clamp(55px, 40vw, 140px);
+    font-family: Pilot;
+    font-size: clamp(0.2rem, 5vw, 0.8rem);
+    letter-spacing: 1.5px;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}

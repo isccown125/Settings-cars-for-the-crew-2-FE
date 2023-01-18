@@ -1,5 +1,7 @@
 .navigation{
     background-color: var(--nav-background-color);
     display: flex;
+    align-items: center;
     width: 100%;
+    padding: 10px 0;
 }
